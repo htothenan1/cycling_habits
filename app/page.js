@@ -12,21 +12,23 @@ import styles from "./page.module.css"
 
 ChartJS.register(CategoryScale, LinearScale, BarController, BarElement)
 
+const labels = [
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
+  "MAY",
+  "JUN",
+  "JUL",
+  "AUG",
+  "SEP",
+  "OCT",
+  "NOV",
+  "DEC",
+]
+
 const BIKING_2018 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2018 Biking",
@@ -64,20 +66,7 @@ const BIKING_2018 = {
 }
 
 const BIKING_2019 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2019 Biking",
@@ -115,20 +104,7 @@ const BIKING_2019 = {
 }
 
 const BIKING_2020 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2020 Biking",
@@ -165,20 +141,7 @@ const BIKING_2020 = {
   ],
 }
 const BIKING_2021 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2021 Biking",
@@ -215,20 +178,7 @@ const BIKING_2021 = {
   ],
 }
 const BIKING_2022 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2022 Biking",
@@ -265,20 +215,7 @@ const BIKING_2022 = {
   ],
 }
 const BIKING_2023 = {
-  labels: [
-    "JAN",
-    "FEB",
-    "MAR",
-    "APR",
-    "MAY",
-    "JUN",
-    "JUL",
-    "AUG",
-    "SEP",
-    "OCT",
-    "NOV",
-    "DEC",
-  ],
+  labels: labels,
   datasets: [
     {
       label: "2023 Biking",
